@@ -81,3 +81,26 @@
 .address .address-contact {
   color: rgba(255, 255, 255, 0.6);
 }
+/* Стилизация портфолио */
+/* Стилизация кнопок */
+.list {
+  list-style: none;
+}
+.tabs {
+  background: #f5f4fa;
+  color: #212121;
+}
+.tabs .all.current {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/* Стилизация списка продуктов */
+.products .list {
+  list-style: none;
+}
+.products {
+  color: #757575;
+}
+.products-title {
+  color: #212121;
+}
