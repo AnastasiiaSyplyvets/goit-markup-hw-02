@@ -19,14 +19,17 @@
 }
 .logo {
   font-family: Raleway, sans-serif;
-  font-style: Bold;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
-  letter-spacing: 3%;
 }
 .logo-part {
   color: var(--accent-color-primary);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .logo-text {
   color: var(--secondary-text-color);
@@ -34,14 +37,21 @@
 .list {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
+.site-nav-item {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+}
 /* site-nav стилизация меню, нав */
 
 .site-nav {
-  font-style: Medium;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 2%;
 }
 .site-nav .link.current {
   color: var(--accent-color-primary);
@@ -57,11 +67,9 @@
 }
 /* auth-nav стилизация контактов */
 .auth-nav {
-  font-style: Medium;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 2%;
 }
 .auth-nav .link-mail {
   color: var(--accent-color-primary);
@@ -84,25 +92,24 @@
 .banner-title {
   color: var(--accent-color-secondary);
 
-  font-style: Medium;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.4;
+  text-transform: uppercase;
   text-align: center;
-  vertical-align: Top;
-  letter-spacing: 2%;
 }
+
 .button-order {
   background: var(--accent-color-primary);
   color: var(--accent-color-secondary);
   font-family: inherit;
-  font-style: Bold;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.9;
-  letter-spacing: 6%;
+  letter-spacing: 0, 06em;
 }
 /* features особенности */
+
 .features .features-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -139,20 +146,26 @@
 .footer {
   background-color: var(--accent-color-third);
 }
-.logo .logo-text-secondary {
+.logo-text-secondary {
   color: var(--accent-color-secondary);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
 }
 .address-list-text {
   color: var(--accent-color-secondary);
   font-size: 14px;
   line-height: 1.71;
-  font-style: regular;
+  font-style: normal;
 }
 .address-list-contact {
   color: rgba(255, 255, 255, 0.6);
 
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 /* Стилизация портфолио */
 /* Стилизация кнопок */
@@ -163,6 +176,7 @@
   background: var(--background-color-secondary);
   color: var(--title-text-color);
 
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
@@ -188,6 +202,8 @@
   font-weight: 700;
 }
 .products-text {
+  color: var(--primary-text-color);
+
   font-size: 16px;
   line-height: 1.87;
 }
