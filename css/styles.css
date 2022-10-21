@@ -15,13 +15,13 @@
 
   font-family: Roboto, sans-serif, Raleway, sans-serif;
   font-size: 14px;
-  line-height: 1.7;
 }
 .logo {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .logo-part {
   color: var(--accent-color-primary);
@@ -30,6 +30,7 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .logo-text {
   color: var(--secondary-text-color);
@@ -45,6 +46,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
+  letter-spacing: 0.02em;
 }
 /* site-nav стилизация меню, нав */
 
@@ -52,6 +54,7 @@ a {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link.current {
   color: var(--accent-color-primary);
@@ -70,9 +73,11 @@ a {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .auth-nav .link-mail {
   color: var(--accent-color-primary);
+  letter-spacing: 0.02em;
 }
 .auth-nav .link-mail:hover,
 .auth-nav .link-mail:focus {
@@ -80,6 +85,7 @@ a {
 }
 .auth-nav .link-tel {
   color: var(--primary-text-color);
+  letter-spacing: 0.02em;
 }
 /* main стилизация главного отдела */
 .section-title {
@@ -97,6 +103,7 @@ a {
   line-height: 1.4;
   text-transform: uppercase;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .button-order {
@@ -106,7 +113,7 @@ a {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.9;
-  letter-spacing: 0, 06em;
+  letter-spacing: 0.06em;
 }
 /* features особенности */
 
@@ -115,10 +122,12 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .features-text {
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 /* Team */
 
@@ -126,6 +135,7 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .team {
   background: var(--background-color-secondary);
@@ -136,11 +146,13 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 /* Footer */
 .footer {
@@ -153,12 +165,14 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .address-list-text {
   color: var(--accent-color-secondary);
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  letter-spacing: 0.03em;
 }
 .address-list-contact {
   color: rgba(255, 255, 255, 0.6);
@@ -166,6 +180,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  letter-spacing: 0.03em;
 }
 /* Стилизация портфолио */
 /* Стилизация кнопок */
@@ -181,7 +196,20 @@ a {
   font-weight: 500;
   line-height: 1.62;
 }
-
+.button-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.all {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
 .tabs .all.current {
   background-color: var(--accent-color-primary);
   color: var(--accent-color-secondary);
@@ -200,10 +228,12 @@ a {
   font-size: 18px;
   line-height: 2;
   font-weight: 700;
+  letter-spacing: 0.06em;
 }
 .products-text {
   color: var(--primary-text-color);
 
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
 }
